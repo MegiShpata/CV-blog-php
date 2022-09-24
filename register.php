@@ -101,11 +101,11 @@
           $mail-> SMPTDebag = 2;                          // Enable verbose debug output
           $mail->Host = 'smtp.gmail.com';                 // Specify main SMTP server
           $mail-> SMTPAuth = true;                        // Enable SMTP authentication
-          $mail->Username = 'megishpata25@gmail.com';     // SMTP username
+          $mail->Username = 'something@gmail.com';     // SMTP username
           $mail->Password   = '*';                        // SMTP password
           $mail->SMTPSecure = 'tls';                      // Enable TLS encryption, 'ssl' also accepted
           $mail->Port       = 587;                        // TCP port to connect to
-          $mail->SetFrom('megishpata25@gmail.com','Megi');
+          $mail->SetFrom('something@gmail.com','Megi');
           $mail->addAddress($email ,'test');
           $mail->isHTML(true);
           $mail->Subject = 'Register';
